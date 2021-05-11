@@ -105,22 +105,61 @@ li {
 
 
 /************ NavBar *****************************/
+nav{
+    height: 80px;
+    background-color: white;
+}
 
+nav a{
+    height: 80px;
+    text-decoration: none;
+
+}
+
+#logoMediQal{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#logoPresentation{
+    background-image: url('../logoNavBar/logoPresentation.png')!important;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    border-left: solid 1px lightgrey;
+}
+#logoOffreSoin{
+    background-image: url('../logoNavBar/logoOffreSoin.png');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    border-left: solid 1px lightgrey;
+}
+#logoActu{
+    background-image: url('../logoNavBar/logoActu.png');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    border-left: solid 1px lightgrey;
+}
+#logoContact{
+    background-image: url('../logoNavBar/logoContact.png');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    border-left: solid 1px lightgrey;
+}
+#logoTelephone{
+    background-image: url('../logoNavBar/logoTelephone.png');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-color: #2ea7b0;
+}
+#logoDoctolib{
+    background-image: url('../logoNavBar/logoDoctolib.png');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-color: #084979;
+}
 .shadowNavBar {
     box-shadow: 0px 5px 25px #000000b2 !important;
 }
-
-.borderItemNavBar {
-    border-left: solid 1px lightgrey;
-}
-
-
-/* hauteur navbar et item */
-
-.navSize {
-    height: 12vh;
-}
-
 
 /* hover des items */
 
@@ -129,7 +168,8 @@ li {
 }
 
 .hoverBleu:hover {
-    background-color: #208087;
+    background-color: #208087 !important;
+    color: white!important;
 }
 
 
@@ -137,7 +177,7 @@ li {
 
 .myDropdown {
     left: 14vw;
-    padding-top: 15vh;
+    padding-top: 100px;
     background-color: #e6e6e6;
 }
 
@@ -153,7 +193,7 @@ li {
 /************  Carroussel  ********************/
 
 .placementCarroussel {
-    margin-top: 12vh;
+    margin-top: 80px;
 }
 
 
@@ -221,10 +261,14 @@ li {
 
 
 /*********************footer*******************/
+footer{
+    margin-top: 200px;
 
+}
 .footerBgImage {
     background-image: url(../imageFooter/bgFooter.png);
     background-position: center;
+    height: 400px;
 }
 
 

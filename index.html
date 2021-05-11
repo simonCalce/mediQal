@@ -19,9 +19,26 @@
 <body>
     <!-- Header -->
     <header>
-
+        <nav class="container-fluid bgBlancCasse shadowNavBar montserrat fw-bold position-fixed top-0 zindex1000">
+            <div class="d-flex w-75 m-auto">
+                <a class="flex-fill d-flex align-items-center" href=""><img id="logoMediQal" src="logoNavBar/logoMediQal.png" alt=""></a>
+    
+                <a id="logoPresentation" class="flex-fill d-flex align-items-end justify-content-center pb-2 text-uppercase link-dark hoverGris" href="">
+                            Presentation<svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-chevron-compact-down " viewBox="0 0 16 16 "><path fill-rule="evenodd " d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z "/></svg>   
+                </a>
+    
+                <a id="logoOffreSoin" class="flex-fill d-flex align-items-end justify-content-center pb-2 text-uppercase link-dark hoverGris offre" href="">     
+                    Offre de soins<svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-chevron-compact-down " viewBox="0 0 16 16 "><path fill-rule="evenodd " d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z "/></svg>
+                </a>
+    
+                <a id="logoActu" class="flex-fill d-flex align-items-end justify-content-center pb-2 text-uppercase link-dark hoverGris" href="">Actualité</a>
+                <a id="logoContact" class="flex-fill d-flex align-items-end justify-content-center pb-2 text-uppercase link-dark hoverGris" href="">Contact</a>
+                <a id="logoTelephone" class="flex-fill d-flex align-items-end justify-content-center pb-2 text-uppercase link-light hoverBleu" href="">05 59 01 16 60</a>
+                <a id="logoDoctolib" class="flex-fill d-flex align-items-end justify-content-center pb-2 text-uppercase link-light" href="">rdv en ligne</a>
+            </div>
+        </nav>
         <!-- NavBar -->
-        <div class="container-fluid bgBlancCasse shadowNavBar montserrat fw-bold position-fixed top-0 zindex1000">
+        <!-- <div class="container-fluid bgBlancCasse shadowNavBar montserrat fw-bold position-fixed top-0 zindex1000">
 
             <nav class="container d-flex navSize align-items-center">
 
@@ -65,7 +82,7 @@
                 </div>
             </nav>
 
-        </div>
+        </div> -->
 
 
 
@@ -76,8 +93,8 @@
                 <div class="carousel-item active">
                     <img src="photoCarroussel/photoCarroussel.png" class="d-block w-100 " alt="photoCarroussel ">
                     <div class="text-center carousel-caption position-absolute top-0 mt-5 ">
-                        <h3 class="mb-5 ">Ici, un titre pour le visuel présent dans le slide (il peut s’agir d'un nouveau service par exemple)</h3>
-                        <button type="button " class="btn btn-outline-light text-uppercase rounded-pill px-4 py-1 ">en savoir plus<svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16 "><path fill-rule="evenodd " d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z "/></svg>
+                        <h3 class="mb-5 roboto fw-bold">Ici, un titre pour le visuel présent dans le slide <br> (il peut s’agir d'un nouveau service par exemple)</h3>
+                        <button type="button " class="btn btn-outline-light text-uppercase rounded-pill px-4 py-1 hoverBleu">en savoir plus<svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16 "><path fill-rule="evenodd " d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z "/></svg>
                         </button>
                     </div>
                 </div>
@@ -193,7 +210,7 @@
             <div class="d-flex flex-wrap justify-content-between ">
 
                 <!-- souplesse -->
-                <div id='souplesse' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 ">
+                <a id='souplesse' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 text-decoration-none" href="">
                     <div><img id='souplesseImg' class="rounded-circle rondBorder p-1 float-start " src="NosAvantages/souplesse.png " alt="souplesse "></div>
                     <div>
                         <h3 class="fw-bold ms-3 textBleuClair ">souplesse</h3>
@@ -203,10 +220,10 @@
 
                         </ul>
                     </div>
-                </div>
+                </a>
 
                 <!-- pratique -->
-                <div id='pratique' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 ">
+                <a id='pratique' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 text-decoration-none" href="">
                     <div><img id='pratiqueImg' class="rounded-circle rondBorder p-1 float-start " src="NosAvantages/pratique.png " alt="pratique "></div>
                     <div>
                         <h3 class="fw-bold ms-3 textBleuClair ">Pratique</h3>
@@ -214,10 +231,10 @@
                             <li><span class="text-dark ">Une équipe pluridisciplinaire à votre écoute et basée dans un même batiment.</span></li>
                         </ul>
                     </div>
-                </div>
+                </a>
 
                 <!-- équipement -->
-                <div id='equipement' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 ">
+                <a id='equipement' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 text-decoration-none" href="">
                     <div><img id='equipementImg' class="rounded-circle rondBorder p-1 float-start " src="NosAvantages/equipement.png " alt="equipement "></div>
                     <div>
                         <h3 class="fw-bold ms-3 textBleuClair text-capitalize ">équipement</h3>
@@ -225,10 +242,10 @@
                             <li><span class="text-dark ">Un plateau technique en écographie générale et en ecographie obstétrique.</span></li>
                         </ul>
                     </div>
-                </div>
+                </a>
 
                 <!-- disponibilité -->
-                <div id='disponibilite' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 ">
+                <a id='disponibilite' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 text-decoration-none" href="">
                     <div><img id='disponibiliteImg' class="rounded-circle rondBorder p-1 float-start " src="NosAvantages/disponibilite.png " alt="disponibilite "></div>
                     <div>
                         <h3 class="fw-bold ms-3 textBleuClair text-capitalize ">Disponibilité</h3>
@@ -236,10 +253,10 @@
                             <li><span class="text-dark ">Nous vous accueillons du lundi au vendredi de 8h à 20h et le samedi de 8h à 13h30.</span></li>
                         </ul>
                     </div>
-                </div>
+                </a>
 
                 <!-- conventionné -->
-                <div id='conventionne' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 ">
+                <a id='conventionne' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 text-decoration-none" href="">
                     <div><img id='conventionneImg' class="rounded-circle rondBorder p-1 float-start " src="NosAvantages/conventionne.png " alt="conventionne"></div>
                     <div>
                         <h3 class="fw-bold ms-3 textBleuClair text-capitalize ">conventionné</h3>
@@ -249,10 +266,10 @@
 
                         </ul>
                     </div>
-                </div>
+                </a>
 
                 <!-- animations -->
-                <div id='animations' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 ">
+                <a id='animations' class="avantageHover rectangleBorder roboto d-flex align-items-center p-3 tailleCard my-2 text-decoration-none" href="">
                     <div><img id='animationsImg' class="rounded-circle rondBorder p-1 float-start " src="NosAvantages/animations.png " alt="animations "></div>
                     <div>
                         <h3 class="fw-bold ms-3 textBleuClair text-capitalize ">animations</h3>
@@ -260,7 +277,7 @@
                             <li><span class="text-dark ">Ateliers de prévention et de santé publique (participation gratuite).</span></li>
                         </ul>
                     </div>
-                </div>
+                </a>
 
             </div>
         </div>
@@ -344,7 +361,7 @@
                 <div class="w-25">
                     <img class="mb-2 " src="DernieresActus/Actu1.png " alt="Actu1 ">
                     <p>15 Aout 2019</p>
-                    <hr class="text-light">
+                    <hr>
                     <h4 class="montserrat fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quod voluptatibus officiis minus neque odit quo distinctio officia praesentium impedit atque illo quas voluptatem! Illum autem vero aut sed voluptatibus!</p>
                     <button class="boutonActu text-uppercase fw-bold pt-1 ">lire la suite<svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-chevron-right " viewBox="0 0 16 16 "><path fill-rule="evenodd " d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z "/></svg>
@@ -355,7 +372,7 @@
                 <div class="w-25 ">
                     <img class="mb-2 " src="DernieresActus/Actu2.png " alt="Actu2 ">
                     <p>15 Aout 2019</p>
-                    <hr class="text-light">
+                    <hr>
                     <h4 class="montserrat fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quod voluptatibus officiis minus neque odit quo distinctio officia praesentium impedit atque illo quas voluptatem! Illum autem vero aut sed voluptatibus!</p>
                     <button class="boutonActu text-uppercase fw-bold pt-1 ">
@@ -369,7 +386,7 @@
                 <div class="w-25 ">
                     <img class="mb-2 " src="DernieresActus/Actu3.png " alt="Actu3 ">
                     <p>15 Aout 2019</p>
-                    <hr class="text-light">
+                    <hr>
                     <h4 class="montserrat fw-bold ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, quod voluptatibus officiis minus neque odit quo distinctio officia praesentium impedit atque illo quas voluptatem! Illum autem vero aut sed voluptatibus!</p>
                     <button class="boutonActu text-uppercase fw-bold pt-1 ">
@@ -386,7 +403,7 @@
     <!-- Fin du Main Content -->
 
     <!-- Footer -->
-    <footer class="roboto ">
+    <footer class="roboto">
         <!-- Partie Haute -->
         <div class="container-fluid footerBgImage py-5 ">
             <div class="w-75 m-auto d-flex justify-content-between ">

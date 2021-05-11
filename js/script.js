@@ -1,5 +1,5 @@
 /* Hover dropdown */
-$("#Offre, .myDropdown").hover(
+$(".offre, .myDropdown").hover(
     function() {
 
         $('.myDropdown').removeClass("displayNone")
@@ -94,7 +94,7 @@ $(document).ready(function() {
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 5,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 500,
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
@@ -102,13 +102,14 @@ $(document).ready(function() {
     });
 });
 /* hover coeur sur les images du slider */
-$(".imgSlider").hover(
+$(".imgSlider").mouseenter(
     function() {
 
         $(this).siblings('.logoCoeur').removeClass("displayNone")
+    }
 
-
-    },
+);
+$(".imgSlider").mouseleave(
     function() {
 
         $(this).siblings('.logoCoeur').addClass("displayNone");
